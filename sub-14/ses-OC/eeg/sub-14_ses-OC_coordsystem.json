@@ -1,0 +1,5 @@
+{
+  "EEGCoordinateSystem": "Other",
+  "EEGCoordinateUnits": "mm",
+  "EEGCoordinateSystemDescription": "Template BioSemi ActiveTwo 128-channel coordinates from Cap_coords_all.xls. Coordinate axes follow an ALS orientation: +X anterior, -X posterior, +Y left, -Y right, +Z superior."
+}
