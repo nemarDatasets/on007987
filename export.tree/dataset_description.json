@@ -1,0 +1,13 @@
+{
+    "Name": "Raw resting-state EEG dataset with alternating eyes-open and eyes-closed recordings in healthy adults",
+    "BIDSVersion": "1.8.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Lydia Arana",
+        "Enrique Stern",
+        "Almudena Capilla"
+    ],
+    "InstitutionName": "Universidad Autónoma de Madrid",
+    "License": "CC0",
+    "DatasetDOI": "doi:10.18112/openneuro.ds007987.v1.0.0"
+}
