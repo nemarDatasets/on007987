@@ -1,29 +1,68 @@
 {
   "version": "2.0",
-  "dataset_id": "on007987",
-  "source": "openneuro",
-  "source_id": "ds007987",
+  "pipeline_stage": "validated",
   "title": "Raw resting-state EEG dataset with alternating eyes-open and eyes-closed recordings in healthy adults",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Lydia Arana": {},
     "Enrique Stern": {},
     "Almudena Capilla": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007987.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007987",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007987",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (517 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset comprises raw resting-state EEG recordings from healthy adults acquired using a 128-channel Biosemi ActiveTwo system at Universidad Autónoma de Madrid. Participants completed four consecutive 5-minute runs alternating between eyes-open and eyes-closed conditions within a single ~20-minute session. The dataset is organized by condition (eyes-open and eyes-closed) rather than by visit, with no preprocessing applied prior to sharing.",
+  "methods_description": "EEG recordings were acquired using a Biosemi ActiveTwo 128-channel system at 1024 Hz sampling rate (2048 Hz for some subjects) in a Faraday cage under dim lighting (120-150 lux). Participants completed four 5-minute runs in alternating eyes-open and eyes-closed conditions, with randomized acquisition sequence. Participants were instructed to sit still, avoid muscle tension, and fixate on a black point for eyes-open recordings.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "eyes-open eyes-closed"
+    },
+    {
+      "term": "healthy controls"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "source_hash": "b702d1f1200486a19687fe724b996cb60732a7c38932008c5989e2ae939b52b1"
 }
