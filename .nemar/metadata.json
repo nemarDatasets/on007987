@@ -44,7 +44,7 @@
     ".yml"
   ],
   "description": "This dataset comprises raw resting-state EEG recordings from healthy adults acquired using a 128-channel Biosemi ActiveTwo system at Universidad Autónoma de Madrid. Participants completed four consecutive 5-minute runs alternating between eyes-open and eyes-closed conditions within a single ~20-minute session. The dataset is organized by condition (eyes-open and eyes-closed) rather than by visit, with no preprocessing applied prior to sharing.",
-  "methods_description": "EEG recordings were acquired using a Biosemi ActiveTwo 128-channel system at 1024 Hz sampling rate (2048 Hz for some subjects) in a Faraday cage under dim lighting (120-150 lux). Participants completed four 5-minute runs in alternating eyes-open and eyes-closed conditions, with randomized acquisition sequence. Participants were instructed to sit still, avoid muscle tension, and fixate on a black point for eyes-open recordings.",
+  "methods_description": "EEG recordings were acquired using a Biosemi ActiveTwo 128-channel system at 1024 Hz sampling rate (2048 Hz for some subjects) in a Faraday cage under dim lighting (120-150 lux). Participants completed four 5-minute runs in alternating eyes-open and eyes-closed conditions, with randomized acquisition sequence across participants. Participants were instructed to sit still, avoid muscle tension, and fixate on a black point for eyes-open recordings.",
   "keywords": [
     {
       "term": "EEG"
@@ -59,9 +59,7 @@
       "term": "healthy controls"
     },
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "electroencephalography"
     }
   ],
   "source_hash": "b702d1f1200486a19687fe724b996cb60732a7c38932008c5989e2ae939b52b1"
